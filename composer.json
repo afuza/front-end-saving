@@ -1,5 +1,7 @@
 {
     "require": {
-        "fzaninotto/faker": "^1.9"
+        "aws/aws-sdk-php": "^3.252",
+        "phpunit/phpunit": "^9.5",
+        "fakerphp/faker": "^1.20"
     }
 }

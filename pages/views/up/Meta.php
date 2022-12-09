@@ -27,6 +27,8 @@
     <link rel="stylesheet" type="text/css" href="https://kcp-native.b-cdn.net/assets/css/vendors/animate.css">
     <link rel="stylesheet" type="text/css" href="https://kcp-native.b-cdn.net/assets/css/vendors/prism.css">
     <link rel="stylesheet" type="text/css" href="https://kcp-native.b-cdn.net/assets/css/vendors/datatables.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.15/dist/sweetalert2.min.css">
+    <link rel="stylesheet" type="text/css" href="https://kcp-native.b-cdn.net/assets/css/vendors/photoswipe.css">
     <!-- Plugins css Ends-->
     <!-- Bootstrap css-->
     <link rel="stylesheet" type="text/css" href="https://kcp-native.b-cdn.net/assets/css/vendors/bootstrap.css">
@@ -35,6 +37,13 @@
     <link id="color" rel="stylesheet" href="https://kcp-native.b-cdn.net/assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
     <link rel="stylesheet" type="text/css" href="https://kcp-native.b-cdn.net/assets/css/responsive.css">
+    <style>
+        /* untuk menghilangkan spinner  */
+        .spinner {
+            display: none;
+        }
+
+    </style>
   </head>
   <body>
     <!-- Loader starts-->

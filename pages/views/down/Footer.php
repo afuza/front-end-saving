@@ -26,6 +26,17 @@
     <!-- Sidebar jquery-->
     <script src="https://kcp-native.b-cdn.net/assets/js/config.js"></script>
     <!-- Plugins JS start-->
+    <script>
+  // jika form-prevent disubmit maka disable button-prevent dan tampilkan spinner
+        (function () {
+            $('.form-prevent').on('submit', function () {
+                $('.button-prevent').attr('disabled', 'true');
+                $('.spinner').show();
+                $('.hide-text').hide();
+            })
+        })();
+</script>
+
     <script src="https://kcp-native.b-cdn.net/assets/js/sidebar-menu.js"></script>
     <script src="https://kcp-native.b-cdn.net/assets/js/prism/prism.min.js"></script>
     <script src="https://kcp-native.b-cdn.net/assets/js/clipboard/clipboard.min.js"></script>
@@ -39,6 +50,9 @@
     <script src="https://kcp-native.b-cdn.net/assets/js/form-validation-custom.js"></script>
     <script src="https://kcp-native.b-cdn.net/assets/js/datatable/datatables/jquery.dataTables.min.js"></script>
     <script src="https://kcp-native.b-cdn.net/assets/js/datatable/datatables/datatable.custom.js"></script>    <!-- Plugins JS Ends-->
+    <script src="https://kcp-native.b-cdn.net/assets/js/photoswipe/photoswipe.min.js"></script>
+    <script src="https://kcp-native.b-cdn.net/assets/js/photoswipe/photoswipe-ui-default.min.js"></script>
+    <script src="https://kcp-native.b-cdn.net/assets/js/photoswipe/photoswipe.js"></script>
     <!-- Theme js-->
     <script src="https://kcp-native.b-cdn.net/assets/js/script.js"></script>
     <!-- login js-->
